@@ -15,7 +15,7 @@ const Hero = () => {
             </div>
             
             <div className="absolute right-[30px] top-[30px] mt-10  justify-end shadow-orange-500 shadow-lg rounded-lg px-2 py-1">
-                <h1 className="w-full text-4xl font-bold text-orange-400">
+                <h1 className="w-full text-4xl font-bold text-orange-400 mt-5">
                 QUOTATION
 
             </h1>
@@ -28,12 +28,12 @@ const Hero = () => {
             <p className="flex justify-between text-orange-500 text-md font-bold mt-2">
             Valid Until: 
             <span className=" px-2 rounded-lg ml-5 text-sm text-white font-bold border border-1 border-orange-500 bg-orange-500">N/A</span>
-             </p>  <p className="flex justify-between mt-2 text-orange-500 text-md font-bold">    Quote#: <span className=" px-2 rounded-lg ml-5 text-sm text-white font-bold border border-1 border-orange-500 bg-orange-500">0177</span></p>
+             </p>  <p className="flex justify-between mt-2  text-orange-500 text-md font-bold">    Quote#: <span className=" px-2 rounded-lg ml-5 text-sm text-white font-bold border border-1 border-orange-500 bg-orange-500">0177</span></p>
             </div>
             <div className="absolute rounded-lg right-[400px] top-[140px] shadow-orange-500 shadow-lg w-[250px]">
-                <p className="flex px-2 bg-orange-500 text-white font-bold text-md">
+                <p className="flex px-4 py-2 bg-orange-500 text-white font-bold text-md">
                 Quote/Project Description
-                </p><p className="font-bold text-md px-2">Interior Design and Decor
+                </p><p className="font-bold text-md px-4 py-2">Interior Design and Decor
                 </p>
             </div>
         </div>

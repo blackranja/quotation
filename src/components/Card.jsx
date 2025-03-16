@@ -8,7 +8,7 @@ const Card = ({ image, title, price1, description,desc2,desc3,price2,price3,pric
       <img className="w-[60%] object-cover overflow-hidden " src={image} alt={title} />
 
       {/* Description Section */}
-      <div className="p-4 flex-1 w-full bg-gray-300">
+      <div className="p-4 flex-1 w-full bg-orange-200">
         {/* Title & Price Row */}
         <div className="flex justify-between items-center mt-[30%]">
           <h3 className="text-2xl font-semibold text-center justify-between">{title}</h3>
