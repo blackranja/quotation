@@ -220,7 +220,7 @@ const Cardholder = () => {
             datas.map((data,index)=>(
 
         
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-br from-gray-100 to-gray-300 p-6">
+    <div className="flex justify-center items-center min-h-screen  p-6">
           <Card 
           key={index}
             image={data.image}
